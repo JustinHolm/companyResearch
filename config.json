@@ -1,0 +1,6 @@
+{
+    "STORAGE_NAME": "quotedb",
+    "STORAGE_KEY": "sTpPJpWUbHO/NuiUp0r/stQSERJsJ5bsA5hAa6fblpOPdzOpTv6qBcoRJ2E+PtSFq+Tp23En/R46Ml4gG7ov/Q==",
+    "PARTITION_KEY": "mytasks",
+    "TABLE_NAME": "tasks"
+}

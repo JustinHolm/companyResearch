@@ -1,10 +1,24 @@
+var azure = require('azure-storage');
 var http = require('http');
 var port = process.env.PORT || 1337;
+var uuid = require('node-uuid');
+var entityGen = azure.TableUtilities.entityGenerator;
 
 http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/html' });
+    
 
-  res.write('testing...' + '\n' + '\n');
+
+
+
+
+
+
+
+
+
+    
+  res.write('testing........' + '\n' + '\n');
   res.end(new Date() + '\n');
   
 }).listen(port);
@@ -22,4 +36,3 @@ fs.writeFile(dFileStamp + ".txt", "Hey there!", function(err) {
 
 
 console.log('Server running on port %s', port);
-
